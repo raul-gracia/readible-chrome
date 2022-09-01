@@ -1,0 +1,27 @@
+{
+  "name": "Readible Plugin",
+  "description": "Open current page in Readible",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Press to open in Readible",
+    "default_icon": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "124": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "124": "icon.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
